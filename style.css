@@ -213,3 +213,12 @@ form {
 #uploadedText {
   padding-top: 2em;
 }
+.idiot-gif {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.idiot-gif img {
+  box-shadow: 1px 1px 3px #999;
+  border-radius: 5px;
+}
