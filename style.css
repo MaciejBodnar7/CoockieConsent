@@ -196,6 +196,7 @@ form {
   grid-column: 2 / 3;
   grid-row: 5;
 }
+
 .btn {
   border: 0;
   font-size: 1rem;
@@ -221,4 +222,7 @@ form {
 .idiot-gif img {
   box-shadow: 1px 1px 3px #999;
   border-radius: 5px;
+}
+.sucker-span {
+  color: violet;
 }

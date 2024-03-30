@@ -31,7 +31,7 @@
     <!-- popup -->
     <div class="modal" id="modal">
       <div class="close-modal-btn-container">
-        <button class="modal-close-btn" id="modal-close-btn">X</button>
+        <button class="modal-close-btn" id="modal-close-btn" disabled>X</button>
       </div>
       <div class="modal-inner" id="modal-inner">
         <h2>We ❤️ Your Data!</h2>
@@ -47,8 +47,8 @@
         <label class="ltwo" for="modalEmail">Email</label>
         <input class="itwo" type="email" name="modal-email" id="modal-email" placeholder="j.kowalski@gmail.com" required />
 
-        <button type="submit" class="btn btn1">Accept</button>
-        <button type="button" class="btn btn2">Decline</button>
+        <button id="accept-btn" type="submit" class="btn btn1">Accept</button>
+        <button id="decline-btn" type="button" class="btn btn2">Decline</button>
       </form>
     </div>
     <script src="main.js"></script>
